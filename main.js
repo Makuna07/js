@@ -14,7 +14,7 @@ function setRandomNumber(n){
     let randomNumbers = [];
     for(let i = 0; i < n; i++){
         randomNumbers.push(getRandomNumber(0, 101));
-    }
+        }
     return randomNumbers;
 }
 
